@@ -18,7 +18,7 @@ if nums:
 if symbs:
     all += symbols
 
-length = 20
+length = int(input('How long would you like the passwords? '))
 amount = 10
 
 for x in range(amount):
